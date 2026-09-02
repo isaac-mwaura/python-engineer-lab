@@ -1,6 +1,11 @@
 import sys
+import os
 import argparse
-from .processors import load_users_from_json, sort_users_by_name, generate_summary
+
+# Add the parent directory to Python path
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from processors import load_users_from_json, sort_users_by_name, generate_summary
 
 def main():
     parser = argparse.ArgumentParser(description="User Data Processor")

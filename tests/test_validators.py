@@ -1,4 +1,10 @@
 import unittest
+import sys
+import os
+
+# Add parent directory to path
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from src.validators import validate_email, validate_age, validate_user_data
 
 class TestValidators(unittest.TestCase):

@@ -1,7 +1,13 @@
 import json
+import sys
+import os
 from typing import List, Dict
-from .models import User
-from .validators import validate_user_data
+
+# Add parent directory to path
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from src.models import User
+from src.validators import validate_user_data
 
 def load_users_from_json(filepath: str) -> List[User]:
     """
