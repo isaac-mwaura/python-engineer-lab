@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Mwangi",
+    "email": "alice@example.com",
+    "age": 28,
+    "city": "Nairobi"
+  },
+  {
+    "id": 2,
+    "name": "Bob Ochieng",
+    "email": "bob@domain.org",
+    "age": 34,
+    "city": "Kisumu"
+  },
+  {
+    "id": 3,
+    "name": "Carol Wanjiru",
+    "email": "carol.w@work.co.ke",
+    "age": 22,
+    "city": "Mombasa"
+  },
+  {
+    "id": 4,
+    "name": "David Kimani",
+    "email": "davidk",
+    "age": 45,
+    "city": "Nairobi"
+  },
+  {
+    "id": 5,
+    "name": "Eve Akinyi",
+    "email": "eve@academy.ke",
+    "age": 130,
+    "city": "Eldoret"
+  }
+]
